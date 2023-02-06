@@ -14,3 +14,5 @@ RUN npm i -g @adonisjs/cli
 
 # bundle all source code
 COPY . . 
+
+CMD ["npm", "run", "start"]
